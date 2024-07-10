@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    font-family: "Orbitron";
+    margin-top: 25px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#display {
+    color: white;
+    background-color: #656565;
+    font-size: 2rem;
+    text-align: right;
+    align-content: center;
+    padding-right: 15px;
+    width: 291px;
+    height: 80px;
+    border-radius: 3px;
+    overflow: scroll;
+}
+
+#display::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.row {
+    display: flex;
+    gap: 2px;
+}
+
+button {
+    font-family: "Orbitron";
+    font-size: 1.25rem;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #4a4a4a;
+}
+
+.clear, .operator, .negative {
+    background-color: #212121;
+}
+
+.clear:hover, .operator:hover, .negative:hover {
+    background-color: #252525;
+}
+
+.digit, .decimal {
+    background-color: #383838;
+}
+
+.equals {
+    width: 151px;
+    background-color: rgb(255, 174, 24);
+}
+
+.equals:hover {
+    background-color: #ffb347
+}
